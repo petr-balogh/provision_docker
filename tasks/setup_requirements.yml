@@ -7,4 +7,5 @@
   package:
     name: libselinux-python
     state: present
+  become: true
   when: ansible_os_family == "RedHat"
